@@ -1,7 +1,10 @@
-const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
-const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
+// const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
+// const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
+const algoliaPlacesApiAppId = 'V70DIH7I9Q';
+const algoliaPlacesApiKey = 'd9834a38c8f6129fb64113bfe2a80147';
 const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
 const taxiFareApiUrl = 'https://taxfaremodel-t46mh5ncta-ew.a.run.app/predict_fare';
+
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
